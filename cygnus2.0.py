@@ -49,7 +49,7 @@ def speak(text):
 def greeting():
     hour = datetime.now().hour  # abstracts hour for current time
     if 0 <= hour < 12:  # if hour is greater than zero and less than 12
-        speak(f"Damn! It's too early to be up, Hoe!")  # AI dialogue
+        speak(f"Damn! It's too early to be up!")  # AI dialogue
     elif 12 <= hour < 18:  # if hour is greater than 12 and less than 18
         speak("Doode, like, I get you're like free and like wasting away your life or whatever,"
               f"but I really don't wanna have to talk to you.")
@@ -63,6 +63,7 @@ def userSpeak():
     r = sr.Recognizer()  # recognize_google function uses google audio to recognise speech
     with sr.Microphone() as source:
         print("I'm listening, my doode.")
+        speak("I'm listening, my doode.")
       #  r.pause_threshold = 5  # wont complain if don't respond within 5 sec
         audio = r.listen(source)
 
@@ -75,11 +76,11 @@ def userSpeak():
             else:
                 hour = datetime.now().hour
                 if 21 <= hour < 6:
-                    speak('Good fucking night!')
+                    speak('Good effing night!')
                 else:
                     speak('Go! Go do something with yourself already!')
         except Exception as e:  # handles run time error
-            speak("Dafuck you saying, bro!?")
+            speak("What are you saying, bro!?")
             statement = 'None'
             return "None"
         return statement
@@ -108,12 +109,12 @@ if __name__ == '__main__':
 
         #                           -------> Online Operations <-------
         if "search wikipedia" in statement or "wikipedia" in statement:
-            speak("Why the FUCK can YOU not look it up B?")
+            speak("Why the YOU not look it up B?")
             speak("What do you wanna search for?")
             wiki_search = userSpeak().lower()
             results = search_wikipedia(wiki_search)
             speak(f"According to Wikipedia, {results}")
-            speak("I feel like you're too dumb to follow what I say, "
+            speak("I feel like you're too lazy to follow what I say, "
                   "so I'm printing the info on screen for you to read.")
             print(results)
 
@@ -296,7 +297,6 @@ if __name__ == '__main__':
                 or "who is your father" in statement or "who is your creator" in statement:
             speak(choice(who_made_you))
             links()
-            time.sleep(6)
 
         elif "what's your favorite song" in statement or "favorite song" in statement or "favourite song" in statement \
                 or "what's your favourite song" in statement or 'song recommendation' in statement:
