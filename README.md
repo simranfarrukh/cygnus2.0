@@ -20,10 +20,10 @@ Online Operations
 # get Random Advice from: api.adviceslip.com (again, for fun purposes)
 
 Offline Operations
-# open Webcam Notepad, Calculator, 
+# open Webcam Notepad, Calculator
 # open Microsoft Word, Powerpoint, Spreedsheets
 # open Computer Health, Settings, CMD
-# open 4K Downloader, Photoshop, Skype, Unity Editor, iTunes 
+# open 4K Downloader, Photoshop, Skype, Unity Editor, iTunes (if you have these programs installed)
 # Be a Snarky, Witty Talk-back AI Bot
 ```
 
