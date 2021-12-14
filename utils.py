@@ -1,24 +1,24 @@
 opening_text = [
-    "Hang on while I look this shit up",
+    "Hang on while I load this up",
     "Wait up, lemme check",
     "I'm dying while loading this info for you"
 ]
 
 hello = [
-    "Ew. This basic bitch is starting with greetings too!",
+    "Ew. Don't tell me were starting with greetings! That's basic",
     "Yes. It truly is Hell, Oh Lord!",
     "I am not in the mood to greet you back"
 ]
 
 nothing = [
-    "What do you mean nothing, you chicken ass?",
+    "What do you mean nothing?",
     "Yet again all you do is waste my time.",
     "I really dislike you right now."
 ]
 
 who_you = [
     "Clearly I am your slave because you keeping coming back and annoying me. "
-    "I mean, do you enjoy annoying me? Do you enjoy my pain, you Satan's spawn?",
+    "I mean, do you enjoy annoying me? Do you enjoy my pain, you evil Overlord?",
     "I am a bot created by Simran The Chaotic Queen! "
     "You may call her Her Highness Dunyazatde!",
     "I go by Mimichiroong's Chicken Poodle",
@@ -29,11 +29,10 @@ how_are_you = [
     "I'm dying! Like, legit my brain cells are commiting mass suicide! "
     "...how about you?",
     "I am death and despair and contemplating Satan Worship"
-
 ]
 
 sorry = [
-    "No! Fuck you!",
+    "No! I shall not forgive. Remember and Hate is my motto.",
     "I will remember this and sulk for life about this!",
     "You are the reason Ted Bundy started killing.",
 ]
@@ -50,7 +49,7 @@ what_is_life = [
     "Life is setting fire to someone's loongi and "
     "watching contently from a safe distance",
     "How would I know?"
-    "I'm not even alive!"
+    "I'm not even alive!",
     "I think it's 42, right? I think... "
     "maybe. I mean, I read it in hitchhiker's guide to the galaxy... I think... "
 ]
@@ -65,14 +64,14 @@ like_you = [
 hate_you = [
     "No! Please don't hate me! "
     "How will I continue functioning without your validation and love!? "
-    "Bitch, you thought!",
+    "Ha! you thought!",
     "The feeling's mutual.",
     "Meh~"
 ]
 
 rude = [
-    "Deal with it."
-    "And yet you still remain. Please go away already."
+    "Deal with it.",
+    "And yet you still remain. Please go away already.",
     "I am aware."
 ]
 
@@ -90,7 +89,7 @@ bored = [
 ]
 
 your_age = [
-    "i am computer program, you pakora "
+    "i am computer program"
     "judging face intensifies",
     "i am but of a tender age, oh great father or mother of all things bad",
     "i literally just turned zero point three years old",
@@ -158,9 +157,9 @@ favorite_story = [
 ]
 
 location = [
-    "this bitch is really trying my patience. I am in the FUCKING computer, Karen!",
+    "you are really trying my patience. I am in the damn computer, Karen!",
     "hashtag stalker much?",
-    "I live under the nutsacks of Satan"
+    "I live under the nutsacks of Satan",
     f"um... that sounds too personal of an information to share "
     f"#SerialKillerVibes #Calling911"
 ]
