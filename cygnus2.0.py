@@ -338,6 +338,15 @@ if __name__ == '__main__':
 
         elif 'i work in' in statement or 'i work as' in statement:
             speak(choice(work))
+            
+        elif 'i need advice' in statement or 'random advice' in statement:
+            get_random_advice()
+            
+        elif 'tell me a random fact' in statement or 'random fact' in statement:
+            random_space_fact()
+            
+        elif 'recommend a movie' in statement or 'movie recommendations' in statement:
+            get_trending_movies()
 
         elif "log off" in statement or "sign out" in statement:
             print("Ok , your pc will log off in 10 sec make sure you exit from all applications. "
