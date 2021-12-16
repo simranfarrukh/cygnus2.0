@@ -8,12 +8,12 @@ from datetime import datetime  # date and time retrieval
 from random import choice  # for retrieving randomized opening greeting
 
 import pyttsx3  # text-to-speech
-import requests
+import requests  # make HTTP requests simpler
 import speech_recognition as sr  # audio-to-text
 
-from functions.fun_codes import heart, finger
+from functions.fun_codes import heart, finger  # retrieve fun_codes.py functions
 from functions.online_ops import search_wikipedia, play_youtube, send_email, my_ip, weather_report, \
-    get_news, wolfram_alpha, google, links, playlist, dunyazatde, scholar
+    get_news, wolfram_alpha, google, links, playlist, dunyazatde, scholar  # retrieve online_ops.py functions
 from functions.os_ops import open_notepad, open_webcam, open_cmd, open_calculator, \
     open_powerpoint, open_spreadsheets, open_health, open_downloader, open_photoshop, \
     open_skype, open_unity, open_itunes, open_settings  # retrieve os_ops.py functions
